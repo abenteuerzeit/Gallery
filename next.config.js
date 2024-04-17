@@ -4,7 +4,18 @@
  */
 await import("./src/env.js");
 
+/**
+ * Check types and eslint in a GitHub Action for speed
+ */
+
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    typescript: {
+        ignoreBuildErrors: true,
+    }, 
+    eslint: {
+        ignoreDuringBuilds: true,
+    }
+};
 
 export default config;

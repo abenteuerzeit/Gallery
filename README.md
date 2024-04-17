@@ -4,6 +4,7 @@
 
 - [x] Deploy (Vercel)
 - [x] Scaffold UI w/ mock data
+- [x] Configure build process
 - [ ] Setup Db (vercel pgsql)
 - [ ] Attach Db to UI
 - [ ] Authentication (clerk)
