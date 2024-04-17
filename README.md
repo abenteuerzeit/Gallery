@@ -2,8 +2,8 @@
 
 ## TODO
 
-- [ ] Deploy (Vercel)
-- [ ] Scaffold UI w/ mock data
+- [x] Deploy (Vercel)
+- [x] Scaffold UI w/ mock data
 - [ ] Setup Db (vercel pgsql)
 - [ ] Attach Db to UI
 - [ ] Authentication (clerk)
