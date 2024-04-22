@@ -6,7 +6,7 @@
 - [x] Scaffold UI w/ mock data
 - [x] Configure build process
 - [x] Setup Db (vercel pgsql)
-- [ ] Attach Db to UI
+- [x] Attach Db to UI
 - [ ] Authentication (clerk)
 - [ ] Image Upload
 - [ ] Error management  (Sentry)
