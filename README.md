@@ -8,11 +8,11 @@
 - [x] Setup Db (vercel pgsql)
 - [x] Attach Db to UI
 - [x] Authentication (clerk)
-- [ ] Image Upload
+- [x] Image Upload
 - [ ] "taint" (server-only)
-- [ ] Error management  (Sentry)
+- [ ] Use Next/Image component
+- [ ] Error management (Sentry)
 - [ ] Routing / Img page (parallel route)
 - [ ] Delete button (Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
-
