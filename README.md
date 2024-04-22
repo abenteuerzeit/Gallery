@@ -7,8 +7,9 @@
 - [x] Configure build process
 - [x] Setup Db (vercel pgsql)
 - [x] Attach Db to UI
-- [ ] Authentication (clerk)
+- [x] Authentication (clerk)
 - [ ] Image Upload
+- [ ] "taint" (server-only)
 - [ ] Error management  (Sentry)
 - [ ] Routing / Img page (parallel route)
 - [ ] Delete button (Server Actions)
