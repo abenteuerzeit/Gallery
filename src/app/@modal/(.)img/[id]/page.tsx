@@ -1,14 +1,14 @@
+import { Modal } from "./modal";
 import { FullPageImageView } from "~/app/common/full-page-image-view";
 
-export default function PhotoPage({
+export default async function PhotoModal({
   params: { id: photoId },
 }: {
   params: { id: string };
 }) {
-  const idAsNumber = Number(photoId);
   return (
-    <div className="flex h-full min-h-0 w-full min-w-0 overflow-y-hidden">
+    <Modal>
       <FullPageImageView photoId={photoId} />
-    </div>
+    </Modal>
   );
 }
