@@ -1,11 +1,10 @@
-import { FullPageImageView } from "~/app/common/full-page-image-view";
+import { FullPageImageView } from "~/common/full-page-image-view";
 
 export default function PhotoPage({
   params: { id: photoId },
 }: {
   params: { id: string };
 }) {
-  const idAsNumber = Number(photoId);
   return (
     <div className="flex h-full min-h-0 w-full min-w-0 overflow-y-hidden">
       <FullPageImageView photoId={photoId} />
