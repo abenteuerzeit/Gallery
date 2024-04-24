@@ -13,6 +13,8 @@
 - [x] Use Next/Image component
 - [x] Error management (Sentry)
 - [x] Routing / Img page (parallel route)
+- [x] Update upload btn as icon
+- [x] Add ShadUI toasts
 - [ ] Delete button (Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
