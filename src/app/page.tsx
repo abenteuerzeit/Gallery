@@ -13,10 +13,10 @@ async function Images() {
   };
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 p-4">
+    <ul className="flex flex-wrap justify-center gap-4 p-4">
       {[...images].map((image) => (
-        <Link href={`/img/${image.id}`}>
-          <figure key={image.id} className="flex h-48 w-48 flex-col">
+        <Link key={image.id} href={`/img/${image.id}`}>
+          <figure className="flex h-48 w-48 flex-col">
             <Image
               src={image.url}
               alt={image.name}
@@ -28,20 +28,20 @@ async function Images() {
           </figure>
         </Link>
       ))}
-    </div>
+    </ul>
   );
 }
 export default async function HomePage() {
   return (
-    <main className="">
+    <>
       <SignedOut>
-        <div className="text-2x1 h-full w-full text-center">
+        <article className="text-2x1 h-full w-full text-center">
           Sign in to see some images
-        </div>
+        </article>
       </SignedOut>
       <SignedIn>
         <Images />
       </SignedIn>
-    </main>
+    </>
   );
 }

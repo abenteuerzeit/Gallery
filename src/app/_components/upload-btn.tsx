@@ -102,7 +102,7 @@ export function SimpleUploadButton() {
   });
 
   return (
-    <div>
+    <>
       <label htmlFor="upload-button" className="cursor-pointer">
         <UploadSVG />
       </label>
@@ -112,6 +112,6 @@ export function SimpleUploadButton() {
         className="sr-only"
         {...inputProps}
       />
-    </div>
+    </>
   );
 }
