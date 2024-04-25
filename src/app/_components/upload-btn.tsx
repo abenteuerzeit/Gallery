@@ -113,6 +113,7 @@ export function SimpleUploadButton() {
       </label>
       <input
         id="upload-button"
+        name="upload-button"
         type="file"
         className="sr-only"
         {...inputProps}

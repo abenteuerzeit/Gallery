@@ -13,22 +13,24 @@ async function Images() {
   };
 
   return (
-    <ul className="flex flex-wrap justify-center gap-4 p-4">
-      {[...images].map((image) => (
-        <Link key={image.id} href={`/img/${image.id}`}>
-          <figure className="flex h-48 w-48 flex-col">
-            <Image
-              src={image.url}
-              alt={image.name}
-              style={{ objectFit: "contain" }}
-              width={size.width}
-              height={size.height}
-            />
-            <figcaption>{image.name}</figcaption>
-          </figure>
-        </Link>
-      ))}
-    </ul>
+    <>
+      <div className="flex flex-wrap justify-center gap-4 p-4">
+        {[...images].map((image) => (
+          <Link key={image.id} href={`/img/${image.id}`}>
+            <figure className="flex h-48 w-48 flex-col">
+              <Image
+                src={image.url}
+                alt={image.name}
+                style={{ objectFit: "contain" }}
+                width={size.width}
+                height={size.height}
+              />
+              <figcaption>{image.name}</figcaption>
+            </figure>
+          </Link>
+        ))}
+      </div>
+    </>
   );
 }
 export default async function HomePage() {
